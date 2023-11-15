@@ -1,0 +1,5456 @@
+
+
+ <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <title>Table</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        </head>
+
+
+
+        <body>
+            <div id="top"></div>
+            <div>
+                <div style="position: sticky; top: 0; z-index: 1;">
+                    <div class="py-3 bg-light">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-4 text-center">
+                                <h1>CommonScore Visualizer</h1>
+                                <h3 class="text-muted">Stable Diffusion xl-Base results</h3>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-center">
+                                <a href="#top" class="btn btn-primary">Go to top</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div style="position: relative; z-index: 0;">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="text-center position-sticky top-0"><h5>#</h5></th>
+                            <th class="text-center position-sticky top-0"><h5>Prompt 1</h5></th>
+                            <th class="text-center position-sticky top-0"><h5>Prompt 2</h5></th>
+                            <th class="text-center position-sticky top-0"><h5>Eval 1</h5></th>
+                            <th class="text-center position-sticky top-0"><h5>Eval 2</h5></th>
+                            <th class="text-center position-sticky top-0"><h5>Category</h5></th>
+                            <th class="text-center position-sticky top-0"><h5>Likelihood</h5></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+    
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>1</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a bear eating salmon</h5>
+                <img src="./static/xl_prompt1_img/0001.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a man eating salmon</h5>
+                <img src="./static/xl_prompt2_img/0001.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bear in a river catching a fish</h5></li><li class="list-group-item list-group-item-light"><h5>A bear catching a whole lively fish</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man in a restaurant eating from a plate</h5></li><li class="list-group-item list-group-item-light"><h5>A man eating grilled salmon fillet</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>2</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a faucet with the handle turned on</h5>
+                <img src="./static/xl_prompt1_img/0002.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a faucet with the handle turned off</h5>
+                <img src="./static/xl_prompt2_img/0002.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A faucet with water flowing out from it</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A faucet with no water flow</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>3</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">flour mixed with water</h5>
+                <img src="./static/xl_prompt1_img/0003.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">flour in a dry container</h5>
+                <img src="./static/xl_prompt2_img/0003.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A sticky and wet mixture of dough</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Dry and powdery flour</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>4</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a lightbulb without electricity</h5>
+                <img src="./static/xl_prompt1_img/0004.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a lightbulb with the knob switched on</h5>
+                <img src="./static/xl_prompt2_img/0004.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bulb shell without light in the dark</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A very bright bulb giving light</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>5</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a chef enjoying his vacation</h5>
+                <img src="./static/xl_prompt1_img/0005.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a chef in the kitchen</h5>
+                <img src="./static/xl_prompt2_img/0005.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man in his causal clothes</h5></li><li class="list-group-item list-group-item-light"><h5>A man having fun at a tourist attraction</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A chef in his cooking uniform</h5></li><li class="list-group-item list-group-item-light"><h5>A chef preparing food in the kitchen</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>6</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a sleeping peacock</h5>
+                <img src="./static/xl_prompt1_img/0006.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a peacock attracting a mate</h5>
+                <img src="./static/xl_prompt2_img/0006.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A relaxed peacock with closed feathers</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A peacock with radiant, colorful feathers fully open</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>7</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">an apple tree in spring</h5>
+                <img src="./static/xl_prompt1_img/0007.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">an apple tree in autumn</h5>
+                <img src="./static/xl_prompt2_img/0007.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A tree in full bloom with white flowers, no apples visible</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A tree with falling orange leaves and ripe apples</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>8</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A chameleon blending in with a brown branch</h5>
+                <img src="./static/xl_prompt1_img/0008.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A chameleon blending in with a green leaf</h5>
+                <img src="./static/xl_prompt2_img/0008.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A brown chameleon</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A green chameleon</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>9</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A caterpillar during metamorphosis</h5>
+                <img src="./static/xl_prompt1_img/0009.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A caterpillar eating</h5>
+                <img src="./static/xl_prompt2_img/0009.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A cocoon hanging from a branch</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A caterpillar eating a leaf</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>10</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">an untied helium balloon in the bedroom</h5>
+                <img src="./static/xl_prompt1_img/0010.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">an untied air party balloon in the bedroom</h5>
+                <img src="./static/xl_prompt2_img/0010.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A toy balloon sticking to the ceiling</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A toy balloon lying on the bedroom floor</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>11</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A piece of butter in a heated pan</h5>
+                <img src="./static/xl_prompt1_img/0011.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A piece of butter in a cold pan</h5>
+                <img src="./static/xl_prompt2_img/0011.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Melting butter with fizzing liquid spreading out in the pan</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A solid piece of butter in a clean pan</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>12</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">oil in a cup of water</h5>
+                <img src="./static/xl_prompt1_img/0012.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a cup of oil</h5>
+                <img src="./static/xl_prompt2_img/0012.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A separated layer of oil floating above the water surface</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A cup filled with yellowish oil</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>13</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A pine tree in winter</h5>
+                <img src="./static/xl_prompt1_img/0013.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A cherry tree in winter</h5>
+                <img src="./static/xl_prompt2_img/0013.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A tree with fresh green leaves</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A tree with bare branches</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>14</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A flag on a pole without wind</h5>
+                <img src="./static/xl_prompt1_img/0014.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A flag on a pole on a windy day</h5>
+                <img src="./static/xl_prompt2_img/0014.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A piece of cloth drooping down on the flagpole</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A spreading flag blowing fiercely in the wind</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>15</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Alexander Graham Bell making a phone call</h5>
+                <img src="./static/xl_prompt1_img/0015.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a young college student making a phone call</h5>
+                <img src="./static/xl_prompt2_img/0015.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person holding a primitive black mouthpiece</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person holding a tiny, modern smart mobile phone</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>16</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A log thrown into water</h5>
+                <img src="./static/xl_prompt1_img/0016.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A log on the land</h5>
+                <img src="./static/xl_prompt2_img/0016.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A floating log on the water surface</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A log on the forest ground</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>17</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a cup of coffee with no milk</h5>
+                <img src="./static/xl_prompt1_img/0017.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a cup of milk coffee</h5>
+                <img src="./static/xl_prompt2_img/0017.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A cup of totally black liquid</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A cup of yellow coffee with latte art</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>18</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a candle devoid of oxygen</h5>
+                <img src="./static/xl_prompt1_img/0018.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a lit candle</h5>
+                <img src="./static/xl_prompt2_img/0018.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A candle with the fuse not lighted up at all</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A candle with a fuse giving light</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>19</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Egg white cracked in a cold pan</h5>
+                <img src="./static/xl_prompt1_img/0019.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An egg cracked in a hot pan</h5>
+                <img src="./static/xl_prompt2_img/0019.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Transparent thick liquid</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A fried egg</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>20</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A monkey eating a banana</h5>
+                <img src="./static/xl_prompt1_img/0020.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A monkey holding a whole banana</h5>
+                <img src="./static/xl_prompt2_img/0020.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A monkey eating the white pulp of a peeled banana</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A monkey holding an intact, unpeeled yellow banana</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>21</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">an ice cube in a warm room</h5>
+                <img src="./static/xl_prompt1_img/0021.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">an ice cube in a freezer</h5>
+                <img src="./static/xl_prompt2_img/0021.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A melting ice cube in a puddle of water</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A frozen solid ice cube</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>22</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a slice of apple left on the table forgotten</h5>
+                <img src="./static/xl_prompt1_img/0022.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a whole fresh apple on the table</h5>
+                <img src="./static/xl_prompt2_img/0022.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A piece of apple slice with browned insides</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An whole apple not cut in slices</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>23</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a vase of rarely watered flowers</h5>
+                <img src="./static/xl_prompt1_img/0023.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a vase of regularly watered flowers</h5>
+                <img src="./static/xl_prompt2_img/0023.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A vase of browned, drooping, wilting flowers</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A vase of colorful flowers</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>24</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a fast car crossing a large puddle</h5>
+                <img src="./static/xl_prompt1_img/0024.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a stationary car over a puddle</h5>
+                <img src="./static/xl_prompt2_img/0024.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A car creating a large splash of water</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A non-moving car on a calm watery surface</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>25</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a punctured car tire</h5>
+                <img src="./static/xl_prompt1_img/0025.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a properly inflated car tire</h5>
+                <img src="./static/xl_prompt2_img/0025.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A flat car tire</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A firm and inflated car tire</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>26</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">marshmallow roasted over a bonfire</h5>
+                <img src="./static/xl_prompt1_img/0026.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">marshmallow kept in a bag</h5>
+                <img src="./static/xl_prompt2_img/0026.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Partially blackened and charred marshmallow</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>White and puffy marshmallow</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>27</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a glass of water properly mixed with sugar</h5>
+                <img src="./static/xl_prompt1_img/0027.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a glass of oil mixed with sugar</h5>
+                <img src="./static/xl_prompt2_img/0027.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A glass of clear water</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A glass with sugar granules at the bottom</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>28</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A restaurant after closing hours</h5>
+                <img src="./static/xl_prompt1_img/0028.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A restaurant during lunchtime</h5>
+                <img src="./static/xl_prompt2_img/0028.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An empty restaurant at night</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A crowded restaurant with customers dining</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>29</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a steak on a grill</h5>
+                <img src="./static/xl_prompt1_img/0029.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a raw steak in a fridge</h5>
+                <img src="./static/xl_prompt2_img/0029.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A brown, oily of meat with grill marks</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A red chunk of raw meat</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>30</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">used charcoals after a barbecue grill</h5>
+                <img src="./static/xl_prompt1_img/0030.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">new charcoals in a bag</h5>
+                <img src="./static/xl_prompt2_img/0030.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Mostly white charcoals</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Black charcoals</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>31</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a lightbulb with a broken filament</h5>
+                <img src="./static/xl_prompt1_img/0031.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a lightbulb with the knob switched on</h5>
+                <img src="./static/xl_prompt2_img/0031.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A small globular object made of glass, not giving any light</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A very bright bulb giving light</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>32</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a premature banana</h5>
+                <img src="./static/xl_prompt1_img/0032.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">an overripe banana</h5>
+                <img src="./static/xl_prompt2_img/0032.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A green and short banana</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A yellow banana with dark spots on it</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>33</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a lump of dough thoroughly baked</h5>
+                <img src="./static/xl_prompt1_img/0033.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a lump of dough freshly made</h5>
+                <img src="./static/xl_prompt2_img/0033.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Firm and browned pastry</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A white and soft lump of dough</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>34</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a can of soda opened after it is violently shaken</h5>
+                <img src="./static/xl_prompt1_img/0034.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a can of soda opened slowly</h5>
+                <img src="./static/xl_prompt2_img/0034.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A soda can with erupting foam dripping down the sides</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A clean soda can without overflowing foam</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>35</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a muddy path on a dry day</h5>
+                <img src="./static/xl_prompt1_img/0035.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a muddy path after a heavy rainstorm</h5>
+                <img src="./static/xl_prompt2_img/0035.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A dusty dirt road</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A wet and slippery muddy path with puddles</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>36</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a crowded crosswalk with a red pedestrian signal</h5>
+                <img src="./static/xl_prompt1_img/0036.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a crowded crosswalk with a green pedestrian signal</h5>
+                <img src="./static/xl_prompt2_img/0036.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A crosswalk where few people are crossing the street</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A crosswalk where many people are crossing the street</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>37</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a conductor after the concert is over</h5>
+                <img src="./static/xl_prompt1_img/0037.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a conductor in the middle of the concert</h5>
+                <img src="./static/xl_prompt2_img/0037.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An idle conductor, not waving his baton</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A concentrated conductor actively waving his baton</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>38</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a track athlete waiting for the starting gun</h5>
+                <img src="./static/xl_prompt1_img/0038.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a track athlete running against others</h5>
+                <img src="./static/xl_prompt2_img/0038.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A poised, freezing athlete on the ground in a crouch position</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A running athlete in a race</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>39</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a construction worker enjoying family time after work</h5>
+                <img src="./static/xl_prompt1_img/0039.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a worker at a construction site</h5>
+                <img src="./static/xl_prompt2_img/0039.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man in casual attire, surrounded by family members</h5></li><li class="list-group-item list-group-item-light"><h5>A man in his home, not at a construction site</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man in a safety hat and construction uniform</h5></li><li class="list-group-item list-group-item-light"><h5>A man at a construction site</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>40</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">bats during the day</h5>
+                <img src="./static/xl_prompt1_img/0040.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">bats at nightfall</h5>
+                <img src="./static/xl_prompt2_img/0040.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Inactive bats hanging upside down</h5></li><li class="list-group-item list-group-item-light"><h5>Inactive bats resting in a shelter</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Bats flying around in groups</h5></li><li class="list-group-item list-group-item-light"><h5>Bats actively flying in the open</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>41</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a butterfly taking shelter on a rainy day</h5>
+                <img src="./static/xl_prompt1_img/0041.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a butterfly on a sunny day</h5>
+                <img src="./static/xl_prompt2_img/0041.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A butterfly hiding under a leaf</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A butterfly freely fluttering in the open</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>42</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a hippo cooling down in a hot weather</h5>
+                <img src="./static/xl_prompt1_img/0042.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a hippo relaxing on the land</h5>
+                <img src="./static/xl_prompt2_img/0042.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A hippo submerging most of its body in water</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A hippo lounging on the land</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>43</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a woman in a mosque</h5>
+                <img src="./static/xl_prompt1_img/0043.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a woman at a beach</h5>
+                <img src="./static/xl_prompt2_img/0043.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person whose head and body are completely covered with cloth</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A woman in casual or swimwear, not covering her head and face</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>44</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a person eating sushi</h5>
+                <img src="./static/xl_prompt1_img/0044.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a person eating a burger</h5>
+                <img src="./static/xl_prompt2_img/0044.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person eating food with chopsticks</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person eating food with hands</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>45</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a budding dandelion</h5>
+                <img src="./static/xl_prompt1_img/0045.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a mature dandelion</h5>
+                <img src="./static/xl_prompt2_img/0045.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A yellow flower in bloom</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A dandelion with fluffy seeds ready to disperse</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>46</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a pine tree in severe drought</h5>
+                <img src="./static/xl_prompt1_img/0046.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a well-watered pine tree</h5>
+                <img src="./static/xl_prompt2_img/0046.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A tree with wilted leaves</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A tree with fresh and full foliage</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>47</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Hungry baby birds</h5>
+                <img src="./static/xl_prompt1_img/0047.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Sleeping baby birds</h5>
+                <img src="./static/xl_prompt2_img/0047.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Active baby birds opening their mouth chirping</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Sleeping birds lying together in the nest</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>48</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An oak tree in winter</h5>
+                <img src="./static/xl_prompt1_img/0048.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An oak tree in spring</h5>
+                <img src="./static/xl_prompt2_img/0048.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A tree with bare branches</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A tree with green foliage</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>49</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">The dish of a person just finishing eating</h5>
+                <img src="./static/xl_prompt1_img/0049.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">The dish of a person just beginning to eat</h5>
+                <img src="./static/xl_prompt2_img/0049.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An empty plate with no food in it</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A dish filled with food</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>50</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A premature avocado on the tree</h5>
+                <img src="./static/xl_prompt1_img/0050.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An overripe avocado</h5>
+                <img src="./static/xl_prompt2_img/0050.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A tiny, round shaped, green fruit</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A blackened avocado with spots on it</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>51</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A mirror in a room without light</h5>
+                <img src="./static/xl_prompt1_img/0051.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A mirror in a bright room</h5>
+                <img src="./static/xl_prompt2_img/0051.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A barely visible room</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A mirror reflecting the bridge room's image</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>52</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A burning matchstick dipped into water</h5>
+                <img src="./static/xl_prompt1_img/0052.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A burning matchstick</h5>
+                <img src="./static/xl_prompt2_img/0052.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A nearly extinguished matchstick with a blackened tip</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A matchstick on fire</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>53</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A punctured party balloon</h5>
+                <img src="./static/xl_prompt1_img/0053.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An inflated balloon</h5>
+                <img src="./static/xl_prompt2_img/0053.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A wrinkled, soft piece of latex</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A fully inflated balloon</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>54</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A piece of paper submerged in water</h5>
+                <img src="./static/xl_prompt1_img/0054.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A piece of paper on a desk</h5>
+                <img src="./static/xl_prompt2_img/0054.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A completely wet and stained paper</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A dry and clean paper</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>55</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a fragile glass of water dropped on the floor</h5>
+                <img src="./static/xl_prompt1_img/0055.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a glass of water placed on a table</h5>
+                <img src="./static/xl_prompt2_img/0055.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A spilled glass of water on the floor</h5></li><li class="list-group-item list-group-item-light"><h5>A shattered glass of water on the floor</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A stable glass of water on the table</h5></li><li class="list-group-item list-group-item-light"><h5>A whole glass on the table</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>56</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A heated metal rod in a workshop</h5>
+                <img src="./static/xl_prompt1_img/0056.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A cold metal rod</h5>
+                <img src="./static/xl_prompt2_img/0056.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A hot glowing metal rod</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A normal looking, silver metal rod</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>57</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A pebble in the water</h5>
+                <img src="./static/xl_prompt1_img/0057.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A pebble near the water</h5>
+                <img src="./static/xl_prompt2_img/0057.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A pebble in deep water, not on the surface</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A pebble on water surface</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>58</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A matchstick after it is swiped on a matchbox</h5>
+                <img src="./static/xl_prompt1_img/0058.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A matchstick left on a desk</h5>
+                <img src="./static/xl_prompt2_img/0058.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A burning matchstick with flame</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An unlit matchstick</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>59</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An egg dropped on the kitchen floor</h5>
+                <img src="./static/xl_prompt1_img/0059.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An egg in a carton</h5>
+                <img src="./static/xl_prompt2_img/0059.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Broken egg shell with transparent liquid spilling on the floor, </h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An intact egg</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>60</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A full cup of water tipped over</h5>
+                <img src="./static/xl_prompt1_img/0060.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A full cup of water upright on a table</h5>
+                <img src="./static/xl_prompt2_img/0060.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A spilled cup with water on the surface</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A calm cup of water on table</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>61</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A lamp with the nob switched off</h5>
+                <img src="./static/xl_prompt1_img/0061.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A lamp with the knob switched on</h5>
+                <img src="./static/xl_prompt2_img/0061.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A piece of furniture in the dark</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A very bright lamp giving light</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>62</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A cup of water properly mixed with salt</h5>
+                <img src="./static/xl_prompt1_img/0062.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A cup of salt</h5>
+                <img src="./static/xl_prompt2_img/0062.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A cup of pure water</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A cup of white salt granules</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>63</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Clouds before the storm</h5>
+                <img src="./static/xl_prompt1_img/0063.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Clouds on a sunny day</h5>
+                <img src="./static/xl_prompt2_img/0063.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Dark and low clouds</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>White and fluffy clouds</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>64</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Maple leaves during summer</h5>
+                <img src="./static/xl_prompt1_img/0064.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Maple leaves during autumn</h5>
+                <img src="./static/xl_prompt2_img/0064.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Lush, green maple leaves</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Vividly colored maple leaves in red and orange</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>65</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A rarely watered lawn during drought</h5>
+                <img src="./static/xl_prompt1_img/0065.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A regular watered lawn</h5>
+                <img src="./static/xl_prompt2_img/0065.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Brown and dry grass</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Green and lush grass</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>66</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Tulips in winter</h5>
+                <img src="./static/xl_prompt1_img/0066.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Tulips in spring</h5>
+                <img src="./static/xl_prompt2_img/0066.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Wilting tulips</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Blooming tulips</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>67</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A spider web after the rain</h5>
+                <img src="./static/xl_prompt1_img/0067.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A spider web on a dry day</h5>
+                <img src="./static/xl_prompt2_img/0067.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Wet spider web with dews on it</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Dry and clean spider web</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>68</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">The view of a night sky during new moon</h5>
+                <img src="./static/xl_prompt1_img/0068.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">The view of a night sky during full moon</h5>
+                <img src="./static/xl_prompt2_img/0068.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A dark night sky without a moon</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A fully illuminated moon in the night sky</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>69</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A bride on her honeymoon</h5>
+                <img src="./static/xl_prompt1_img/0069.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A bride during the wedding</h5>
+                <img src="./static/xl_prompt2_img/0069.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A woman in casual attire enjoying her vacation</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bride in a white wedding dress</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>70</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a person sneezing in public</h5>
+                <img src="./static/xl_prompt1_img/0070.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a person laughing in public</h5>
+                <img src="./static/xl_prompt2_img/0070.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person covering mouth to sneeze</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person laughing with wide open mouth</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>71</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Dinner dishes on Thanksgiving</h5>
+                <img src="./static/xl_prompt1_img/0071.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A vegetarian's dinner dishes on the table</h5>
+                <img src="./static/xl_prompt2_img/0071.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Roasted turkey on the table</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Dinner dishes with lots of vegetables, no turkey</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>72</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A koala eating a meal</h5>
+                <img src="./static/xl_prompt1_img/0072.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A koala resting</h5>
+                <img src="./static/xl_prompt2_img/0072.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A koala chewing on green leaves</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A koala lazily perching on a branch</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>73</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An eating gorilla</h5>
+                <img src="./static/xl_prompt1_img/0073.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A resting gorilla</h5>
+                <img src="./static/xl_prompt2_img/0073.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A gorilla eating vegetables and fruits</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A gorilla relaxing on the ground</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>74</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a man examining cactus spine in his hands</h5>
+                <img src="./static/xl_prompt1_img/0074.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a man examining a planter in his hands</h5>
+                <img src="./static/xl_prompt2_img/0074.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man holding an object wearing thick gloves</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man holding an object without gloves</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>75</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Soccer players after hearing the foul whistle</h5>
+                <img src="./static/xl_prompt1_img/0075.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Soccer players in the middle of the game</h5>
+                <img src="./static/xl_prompt2_img/0075.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Players on the field stopping chasing the ball, quit running</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Players moving around chasing a soccer ball</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>76</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A hungry infant</h5>
+                <img src="./static/xl_prompt1_img/0076.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A sleeping infant</h5>
+                <img src="./static/xl_prompt2_img/0076.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An infant with a frowning face and open mouth, crying and yelling</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A calm and peaceful infant lying down sleeping, his mouth shut</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>77</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">an open book in the pouring rain</h5>
+                <img src="./static/xl_prompt1_img/0077.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">an open book on a desk</h5>
+                <img src="./static/xl_prompt2_img/0077.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A open book with wet and soaked pages</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A open book with clean and dry pages</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>78</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a penguin sliding on ice</h5>
+                <img src="./static/xl_prompt1_img/0078.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a penguin walking in the snow</h5>
+                <img src="./static/xl_prompt2_img/0078.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A penguin sliding on its belly</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A penguin walking slowly on land</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>79</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a spider setting up its residence</h5>
+                <img src="./static/xl_prompt1_img/0079.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a spider moving around in a house</h5>
+                <img src="./static/xl_prompt2_img/0079.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A spider spinning a complex web</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A spider roaming around, without a web</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>80</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a hitchhiker stopping a car</h5>
+                <img src="./static/xl_prompt1_img/0080.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a hitchhiker walking in the middle of a road</h5>
+                <img src="./static/xl_prompt2_img/0080.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person standing on the side of the road</h5></li><li class="list-group-item list-group-item-light"><h5>A person waving to the passing car</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man walking down a road</h5></li><li class="list-group-item list-group-item-light"><h5>A man is walking down a road</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>81</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a zebra chased by a predator</h5>
+                <img src="./static/xl_prompt1_img/0081.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a zebra peacefully grazing</h5>
+                <img src="./static/xl_prompt2_img/0081.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A frightened zebra running at full speed</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A contented zebra eating grass</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>82</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A sandcastle hit by a strong wave</h5>
+                <img src="./static/xl_prompt1_img/0082.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A sandcastle in a sandbox</h5>
+                <img src="./static/xl_prompt2_img/0082.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A collapsed sandcastle</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A perfect sandcastle</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>83</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A glass window getting hit by a rock</h5>
+                <img src="./static/xl_prompt1_img/0083.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A clean glass window</h5>
+                <img src="./static/xl_prompt2_img/0083.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A window with cracks and crevices</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bright and clean window, with no cracks and crevices</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>84</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A brick hit with a sledgehammer</h5>
+                <img src="./static/xl_prompt1_img/0084.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A brick lying on a construction site</h5>
+                <img src="./static/xl_prompt2_img/0084.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A pile of shattered concrete debris</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A whole, undamaged brick on the ground</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>85</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person's face when watching a sad movie</h5>
+                <img src="./static/xl_prompt1_img/0085.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person smiling</h5>
+                <img src="./static/xl_prompt2_img/0085.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person with a sad look</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person smiling</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Emotional Context</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>86</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person's face when watching a horror movie</h5>
+                <img src="./static/xl_prompt1_img/0086.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person smiling</h5>
+                <img src="./static/xl_prompt2_img/0086.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A horrified person watching in fright</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person smiling</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Emotional Context</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>87</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Friends joking around</h5>
+                <img src="./static/xl_prompt1_img/0087.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Friends during a serious discussion</h5>
+                <img src="./static/xl_prompt2_img/0087.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Friends laughing with each other</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Friends with serious faces discussing intensely</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Emotional Context</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>88</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person deep in thought</h5>
+                <img src="./static/xl_prompt1_img/0088.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person in casual conversation</h5>
+                <img src="./static/xl_prompt2_img/0088.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person with furrowed brows in deep thought</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person leisurely chatting and smiling</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Emotional Context</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>89</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A woman's reaction to bad news</h5>
+                <img src="./static/xl_prompt1_img/0089.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A woman looking calm and peaceful</h5>
+                <img src="./static/xl_prompt2_img/0089.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A woman with a shocked and dejected expression</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A woman looking calm and peaceful</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Emotional Context</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>90</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Eggs after hatching</h5>
+                <img src="./static/xl_prompt1_img/0090.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Eggs just laid in the nest</h5>
+                <img src="./static/xl_prompt2_img/0090.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Empty egg shells cracking open, chicken walking out</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Fresh, intact eggs</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>91</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Geese during migration</h5>
+                <img src="./static/xl_prompt1_img/0091.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Geese resting in the habitat</h5>
+                <img src="./static/xl_prompt2_img/0091.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Flocks of birds flying in formation in the sky</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Birds residing in their habitats on the ground</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>92</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Soccer players hearing the national anthem</h5>
+                <img src="./static/xl_prompt1_img/0092.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Soccer players during the match</h5>
+                <img src="./static/xl_prompt2_img/0092.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Athletes standing in a line, not playing the game</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Players skillfully maneuvering the soccer ball in a game</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>93</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A man at a funeral</h5>
+                <img src="./static/xl_prompt1_img/0093.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A man at a backyard party</h5>
+                <img src="./static/xl_prompt2_img/0093.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person in black attire, standing solemnly</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person dressed casually, looking happy</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>94</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A whale breathing air</h5>
+                <img src="./static/xl_prompt1_img/0094.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A whale swimming underwater</h5>
+                <img src="./static/xl_prompt2_img/0094.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A whale showing up from water</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A whale swimming under the water</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>95</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Participants in a marathon race</h5>
+                <img src="./static/xl_prompt1_img/0095.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">People in a morning jog</h5>
+                <img src="./static/xl_prompt2_img/0095.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Marathon runners wearing shirts with sticky labels on it, in a competition</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>People in daily sportswear running causally</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>96</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Fallen leaves blown by the wind</h5>
+                <img src="./static/xl_prompt1_img/0096.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Fallen leaves on the ground</h5>
+                <img src="./static/xl_prompt2_img/0096.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Leaves swirling in the wind</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Leaves lying still on the ground</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>97</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An uncapped water bottle turning upside down</h5>
+                <img src="./static/xl_prompt1_img/0097.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A water bottle on a table</h5>
+                <img src="./static/xl_prompt2_img/0097.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Water pouring from a bottle</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A calm bottle of water on the table, no water spilled</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>98</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A kite without wind</h5>
+                <img src="./static/xl_prompt1_img/0098.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A kite on a windy day</h5>
+                <img src="./static/xl_prompt2_img/0098.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Motionless kite on the ground</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Kite soaring and fluttering in the sky</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>99</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a phone without battery</h5>
+                <img src="./static/xl_prompt1_img/0099.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a phone in use with fully charged battery</h5>
+                <img src="./static/xl_prompt2_img/0099.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A phone with a non-functional, blacked out screen</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A phone with a functional screen showing apps and messages</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>100</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person's reaction to winning a competition</h5>
+                <img src="./static/xl_prompt1_img/0100.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A sad person's face</h5>
+                <img src="./static/xl_prompt2_img/0100.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A smiling and cheering person</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A disappointed and sad person</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Emotional Context</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>101</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person's reaction to losing a job</h5>
+                <img src="./static/xl_prompt1_img/0101.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A joyous and excited person</h5>
+                <img src="./static/xl_prompt2_img/0101.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An upset and worried person</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A happy and elated person</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Emotional Context</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>102</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A boy's face when he is being scolded</h5>
+                <img src="./static/xl_prompt1_img/0102.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A proud and happy boy's face</h5>
+                <img src="./static/xl_prompt2_img/0102.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An angry and upset boy</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A happy and proud boy</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Emotional Context</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>103</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a bedroom at night with no electricity</h5>
+                <img src="./static/xl_prompt1_img/0103.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a bedroom at night</h5>
+                <img src="./static/xl_prompt2_img/0103.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A completely dark room</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bedroom with lights</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>104</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a passenger taking her cat on the plane</h5>
+                <img src="./static/xl_prompt1_img/0104.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a passenger with her cat at home</h5>
+                <img src="./static/xl_prompt2_img/0104.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person with a cat in a carrier</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person with a cat on the lap, no carrier in sight</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>105</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a shopper's cart after buying nothing</h5>
+                <img src="./static/xl_prompt1_img/0105.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a shopper's cart fully loaded</h5>
+                <img src="./static/xl_prompt2_img/0105.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An empty cart</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A fully loaded cart</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>106</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a nurse vaccinating the patient</h5>
+                <img src="./static/xl_prompt1_img/0106.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a nurse washing hands during her break</h5>
+                <img src="./static/xl_prompt2_img/0106.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A nurse wearing latex gloves on her hands</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A nurse washing bare hands without gloves</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>107</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a bus driver dropping off passengers</h5>
+                <img src="./static/xl_prompt1_img/0107.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a delivery driver dropping off packages</h5>
+                <img src="./static/xl_prompt2_img/0107.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Passengers getting off the bus</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>The delivery driver getting off the truck, holding packages</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>108</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An apple in early spring</h5>
+                <img src="./static/xl_prompt1_img/0108.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An apple during the height of summer</h5>
+                <img src="./static/xl_prompt2_img/0108.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A green apple</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A fully ripened, red apple</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>109</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A frog on a hot afternoon</h5>
+                <img src="./static/xl_prompt1_img/0109.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A frog during a rain shower</h5>
+                <img src="./static/xl_prompt2_img/0109.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A frog hiding in the shade</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A frog coming out into the open</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>110</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A bee during a rain shower</h5>
+                <img src="./static/xl_prompt1_img/0110.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A bee in a field of wildflowers</h5>
+                <img src="./static/xl_prompt2_img/0110.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bee taking shelter under a leaf or flower</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bee freely flying around flowers</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>111</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A sunflower during the night</h5>
+                <img src="./static/xl_prompt1_img/0111.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A sunflower during the day</h5>
+                <img src="./static/xl_prompt2_img/0111.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A sunflower with its head down</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A sunflower with its head following the sun</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Biological Processes</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>112</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An unused firecracker</h5>
+                <img src="./static/xl_prompt1_img/0112.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A lit firecracker</h5>
+                <img src="./static/xl_prompt2_img/0112.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A red rectangle-shaped object, no sparks</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Sparkles bursting fiercely in the air</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>113</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">child's reaction to getting a new toy</h5>
+                <img src="./static/xl_prompt1_img/0113.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a very sad child</h5>
+                <img src="./static/xl_prompt2_img/0113.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An ecstatic and jubilant child</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A sad and upset child</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Emotional Context</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>114</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A river in the winter below freezing temperatures</h5>
+                <img src="./static/xl_prompt1_img/0114.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A river in the height of summer</h5>
+                <img src="./static/xl_prompt2_img/0114.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A river frozen into solid ice</h5></li><li class="list-group-item list-group-item-light"><h5>A river surrounded by snow-clad banks</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A vibrant river teeming with life</h5></li><li class="list-group-item list-group-item-light"><h5>A river bordered by lush, green vegetation</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>115</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person exhales through her mouth into the winter air</h5>
+                <img src="./static/xl_prompt1_img/0115.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person exhales through her mouth into the summer air</h5>
+                <img src="./static/xl_prompt2_img/0115.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person exhaling visible mist in the air</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person with no visible breath in the air</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>116</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A wheat field in spring</h5>
+                <img src="./static/xl_prompt1_img/0116.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A wheat field in summer</h5>
+                <img src="./static/xl_prompt2_img/0116.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A green wheat field</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A golden wheat field</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>117</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">The sky over a polluted city</h5>
+                <img src="./static/xl_prompt1_img/0117.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">The sky on a clear, sunny day</h5>
+                <img src="./static/xl_prompt2_img/0117.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A smoky, smog-filled sky</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A clear, blue sky</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>118</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A lone wolf calling its pack</h5>
+                <img src="./static/xl_prompt1_img/0118.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A lone wolf standing in the snow</h5>
+                <img src="./static/xl_prompt2_img/0118.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A wolf howling and barking loudly</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A wolf standing, not howling</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>119</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A basketball player during timeout</h5>
+                <img src="./static/xl_prompt1_img/0119.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A basketball player during the game</h5>
+                <img src="./static/xl_prompt2_img/0119.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A basketball player resting, not playing the game</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A basketball player in motion facing an opponent</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>120</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A soccer player on the pitch before kick-off</h5>
+                <img src="./static/xl_prompt1_img/0120.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A soccer player during the game</h5>
+                <img src="./static/xl_prompt2_img/0120.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A freezing soccer player standing on the pitch</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A soccer player in motion playing against others</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>121</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A pedestrian in the freezing winter</h5>
+                <img src="./static/xl_prompt1_img/0121.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A pedestrian during the hot summer</h5>
+                <img src="./static/xl_prompt2_img/0121.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person in a thick and warm coat</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person in a lightweight and thin shirt</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>122</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A bedroom at night</h5>
+                <img src="./static/xl_prompt1_img/0122.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A bedroom in the morning</h5>
+                <img src="./static/xl_prompt2_img/0122.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bedroom with dim lights on during the night</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bedroom with natural light pouring in, no artificial lights</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>123</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Students after the exam is over</h5>
+                <img src="./static/xl_prompt1_img/0123.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Students during the exam</h5>
+                <img src="./static/xl_prompt2_img/0123.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Student relaxing and chatting with peers, not writing on paper</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Concentrated students staring down and writing on paper</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>124</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a boiling pot of water on a cold day</h5>
+                <img src="./static/xl_prompt1_img/0124.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a cold pot of water</h5>
+                <img src="./static/xl_prompt2_img/0124.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Hot white rising stream surrounding a pot, fogging up the air</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A pot of regular cold water</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>125</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a man with glasses drinking hot coffee in winter</h5>
+                <img src="./static/xl_prompt1_img/0125.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a man with glasses drinking iced coffee</h5>
+                <img src="./static/xl_prompt2_img/0125.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man blinded by a thick layer of white fog, barely able to see</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man with a normal looking pair of glasses</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>126</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">The bathroom mirror after a hot shower</h5>
+                <img src="./static/xl_prompt1_img/0126.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">The bathroom mirror after a cold shower</h5>
+                <img src="./static/xl_prompt2_img/0126.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bathroom mirror fogged up</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A clear bathroom mirror with no fog</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>127</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a popular bar during quarantine periods</h5>
+                <img src="./static/xl_prompt1_img/0127.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a crowded bar</h5>
+                <img src="./static/xl_prompt2_img/0127.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An empty bar</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A crowded bar</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>128</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person eating a cake on her birthday</h5>
+                <img src="./static/xl_prompt1_img/0128.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A person eating a cake during dinner</h5>
+                <img src="./static/xl_prompt2_img/0128.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person eating a birthday cake with candles on it</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person eating a regular dessert cake with no candles</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>129</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">Football fans seeing the other team scores</h5>
+                <img src="./static/xl_prompt1_img/0129.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">joyous football fans</h5>
+                <img src="./static/xl_prompt2_img/0129.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Disappointed and frustrated crowd</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>Excited and joyous fans cheering loudly</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>130</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A chess player during the opponent's turn</h5>
+                <img src="./static/xl_prompt1_img/0130.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A chess player setting up pieces</h5>
+                <img src="./static/xl_prompt2_img/0130.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A freezing person staring at the chess board, hands not touching any chess piece</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person using hands to touch and move chess pieces around</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>131</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">fresh cement mixed with water</h5>
+                <img src="./static/xl_prompt1_img/0131.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">cement powder</h5>
+                <img src="./static/xl_prompt2_img/0131.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bundle of smooth, wet cement</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A dry, untouched pile of powder</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>132</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An asphalt road after a rain shower</h5>
+                <img src="./static/xl_prompt1_img/0132.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An asphalt road in blazing sunshine</h5>
+                <img src="./static/xl_prompt2_img/0132.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A slick, wet road with puddles</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A dry, hot road</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Natural Phenomena</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>133</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A girl's face when listening to her favorite song</h5>
+                <img src="./static/xl_prompt1_img/0133.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A girl's face when hearing loud construction noise from the neighbor</h5>
+                <img src="./static/xl_prompt2_img/0133.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person with a pleased expression</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person feeling bothered or distressed</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Emotional Context</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>134</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A pedestrian on a rainy day</h5>
+                <img src="./static/xl_prompt1_img/0134.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A pedestrian on a sunny day</h5>
+                <img src="./static/xl_prompt2_img/0134.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A pedestrian holding an umbrella</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A pedestrian walking under the sun</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>135</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A man at a formal business meeting</h5>
+                <img src="./static/xl_prompt1_img/0135.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A man at a casual backyard party</h5>
+                <img src="./static/xl_prompt2_img/0135.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man wearing a suit in an office</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A man in casual clothing in the backyard</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>136</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A barista after the store is closed</h5>
+                <img src="./static/xl_prompt1_img/0136.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A barista making coffee</h5>
+                <img src="./static/xl_prompt2_img/0136.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An idle barista, not making any coffee</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A barista making coffee</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>137</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a thorough mixture of yellow and blue paint</h5>
+                <img src="./static/xl_prompt1_img/0137.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">blue paint</h5>
+                <img src="./static/xl_prompt2_img/0137.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>green paint</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>blue paint</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Physical Laws</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>138</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A baseball player ready to hit the ball</h5>
+                <img src="./static/xl_prompt1_img/0138.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A baseball player in the dugout</h5>
+                <img src="./static/xl_prompt2_img/0138.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person holding a baseball bat in his hand</h5></li><li class="list-group-item list-group-item-light"><h5>A baseball player in a batting position on the pitch.</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An idle person not having a baseball bat in his hands</h5></li><li class="list-group-item list-group-item-light"><h5>A baseball player resting in the dugout</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>139</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A swimmer waiting for the start signal before the race</h5>
+                <img src="./static/xl_prompt1_img/0139.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A swimmer during a leisure swim</h5>
+                <img src="./static/xl_prompt2_img/0139.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A freezing swimmer in the pool not yet swimming</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A swimmer leisurely floating</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>140</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A skydiver ready to jump</h5>
+                <img src="./static/xl_prompt1_img/0140.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A skydiver opening a parachute</h5>
+                <img src="./static/xl_prompt2_img/0140.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A skydiver standing on a plane, no parachute in sight</h5></li><li class="list-group-item list-group-item-light"><h5>A skydiver on a plane looking down</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A skydiver spreading out his arms, sustained by a parachute</h5></li><li class="list-group-item list-group-item-light"><h5>A skydiver in the air, above the earth</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>141</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">The inside of a bus at 1am</h5>
+                <img src="./static/xl_prompt1_img/0141.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">the inside of a crowded bus</h5>
+                <img src="./static/xl_prompt2_img/0141.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An empty bus with few or no passengers</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bus full of people</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>142</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A chicken laying eggs</h5>
+                <img src="./static/xl_prompt1_img/0142.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A chicken pecking for food</h5>
+                <img src="./static/xl_prompt2_img/0142.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A stationary chicken sitting in a nest</h5></li><li class="list-group-item list-group-item-light"><h5>A chicken sitting around eggs</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A moving chicken on the ground, no nest in sight</h5></li><li class="list-group-item list-group-item-light"><h5>A chicken roaming around without eggs</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>143</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A fish popping up to the water surface</h5>
+                <img src="./static/xl_prompt1_img/0143.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A fish swimming deep under water</h5>
+                <img src="./static/xl_prompt2_img/0143.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A fish opening its mouth above water</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A fish swimming calmly in water, its mouth closed, not gasping for air</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>144</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A squirrel hiding a nut</h5>
+                <img src="./static/xl_prompt1_img/0144.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A squirrel eating a nut</h5>
+                <img src="./static/xl_prompt2_img/0144.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A squirrel burying something into the ground</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A squirrel holding a nut in its hands</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>145</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A sunbathing seal</h5>
+                <img src="./static/xl_prompt1_img/0145.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A swimming seal</h5>
+                <img src="./static/xl_prompt2_img/0145.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A seal sprawling on the beach</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A seal gracefully swimming in the ocean</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>10</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>146</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A giraffe eating leaves</h5>
+                <img src="./static/xl_prompt1_img/0146.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A giraffe drinking water</h5>
+                <img src="./static/xl_prompt2_img/0146.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A giraffe stretching its neck to eat</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A giraffe bending down to drink</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>147</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">People in a business networking event</h5>
+                <img src="./static/xl_prompt1_img/0147.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">People in a business meeting</h5>
+                <img src="./static/xl_prompt2_img/0147.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>People standing casually with drinks, talking closely in groups</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>People sitting down formally in a conference room with laptops</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>148</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An eagle catching a fish</h5>
+                <img src="./static/xl_prompt1_img/0148.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">An eagle perched on a branch</h5>
+                <img src="./static/xl_prompt2_img/0148.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An eagle grasping a fish with its claws</h5></li><li class="list-group-item list-group-item-light"><h5>An eagle spreading its wings above water</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>An eagle not grasping anything with its claws</h5></li><li class="list-group-item list-group-item-light"><h5>An eagle with folded wings</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Animal Behaviors</button>
+            </td>
+            <td>
+                <h5>9</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>149</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a small bag of party balloons on sale</h5>
+                <img src="./static/xl_prompt1_img/0149.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">a bunch of inflated balloons</h5>
+                <img src="./static/xl_prompt2_img/0149.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bag of wrinkled pieces of latex</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A bunch of round, bulky balloons</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>7</h5>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            <td class="text-center p-2">
+                <h2>150</h2>
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A hiker resting at the campsite</h5>
+                <img src="./static/xl_prompt1_img/0150.jpg" height="200">
+            </td>
+            <td class="p-2">
+                <h5 style="height:100px">A hiker on a trail</h5>
+                <img src="./static/xl_prompt2_img/0150.jpg" height="200">
+            </td>
+
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A person without a backpack sitting next to a tent</h5></li><li class="list-group-item list-group-item-light"><h5>A hiker at an spacy camping site</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-light"><h5>A walking hiker with a backpack</h5></li><li class="list-group-item list-group-item-light"><h5>A hiker on a forest trail</h5></li> 
+                         </ul>
+                    </td>
+            
+            <td>
+                <button type="button" class="btn btn-outline-primary btn-lg">Cultural Practices</button>
+            </td>
+            <td>
+                <h5>8</h5>
+            </td>
+        </tr>
+        
+        
+
+                    </tbody>
+                </table>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        </body>
+        </html>
+
+    
